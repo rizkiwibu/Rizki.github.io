@@ -5,31 +5,9 @@ const CONFIG = {
     username: 'rizkiwibu', // Your GitHub org/user name. (This is the only required config)
   },
 
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * then set base to '/<REPO_NAME>/'.
-   */
   base: '',
 
   projects: {
-    github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 10, // How many projects to display
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true
-          projects: [], // Example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
-      // manual: {
-      //   projects: ['arifszn/gitprofile', 'arifszn/pandora'], 
-      // },
-    },
-
     external: {
       header: 'My Projects',
       projects: [
@@ -76,13 +54,13 @@ const CONFIG = {
     instagram: 'ikykunnnn',
     reddit: '',
     threads: '',
-    youtube: 'RIZKIIRFAN', // example: 'pewdiepie'
+    youtube: 'RIZKIIRFAN',
     udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '',
     skype: '',
     telegram: '',
     website: '',
@@ -112,13 +90,13 @@ const CONFIG = {
   ],
 
   blog: {
-    source: '', // medium | dev
+    source: '',
     username: '',
-    limit: 2, // Max 10
+    limit: 2,
   },
 
   googleAnalytics: {
-    id: '', // UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '',
   },
 
   hotjar: {
@@ -180,7 +158,7 @@ const CONFIG = {
   },
 
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/rizkiwibu"
+     class="text-primary" href="https://github.com/rizkiwibu"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
@@ -189,4 +167,3 @@ const CONFIG = {
 };
 
 export default CONFIG;
-    
