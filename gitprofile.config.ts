@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'Sansekai', // Your GitHub org/user name. (This is the only required config)
+    username: 'rizkiwibu', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -52,20 +52,20 @@ const CONFIG = {
     // },
   },
   seo: {
-    title: 'Portofolio of Yusril',
+    title: 'Portofolio of irfan',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'yusrilid',
+    linkedin: 'ありません',
     twitter: '',
     mastodon: '',
     researchGate: '',
-    facebook: 'sansekai.id',
-    instagram: 'yusril.id_',
+    facebook: 'ありません',
+    instagram: 'ikykunnnn',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: 'RIZKIIRFAN', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
@@ -76,11 +76,11 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '',
-    email: 'sansekai.id@gmail.com',
+    email: 'irfanwibu88@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/drive/folders/1v7BeMtLEBGO4eC6DmkyZJljecWYHZ0oA?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/drive/folders/1v7BLEBGO4eC6DmkyZJljecWYHZ0oA?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: ['Still Learning'],
   // experiences: [
@@ -109,14 +109,14 @@ const CONFIG = {
   // ],
   educations: [
     {
-      institution: 'Universitas Megarezky',
-      degree: 'S1 Sistem Informasi',
+      institution: 'SMK MUHAMMADIYAH 3 WELERI',
+      degree: 'Teknik dan Bisnis Sepeda Motor',
       from: '2021',
-      to: '2025',
+      to: '2024',
     },
     {
-      institution: 'SMK Tamansiswa 2 Jakarta',
-      degree: 'Rekayasa Perangkat Lunak',
+      institution: 'SMP 3 WELERI',
+      degree: '-',
       from: '2018',
       to: '2021',
     },
@@ -220,7 +220,7 @@ const CONFIG = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/rizkiwibu"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
